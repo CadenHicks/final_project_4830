@@ -1,0 +1,53 @@
+#form button {
+  width: 100%;
+  margin-right: 10px;
+}
+
+#header {
+  margin-bottom: 25px;
+}
+
+#text
+{
+  width: 50%;
+  float: left;
+}
+
+#list
+{
+  width: 48%;
+  float: left;
+  margin-left: 10px;
+}
+
+#con
+{
+  width: 100%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* .example-spacer {
+  flex: 0 1 auto;
+} */
+
+#review, #menu, #reservation
+{
+  padding: 50px;
+  color: white;
+}
+
+#corner
+{
+  color:white;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+#stars
+{
+  text-decoration: underline;
+  font-weight: 60;
+}
+
