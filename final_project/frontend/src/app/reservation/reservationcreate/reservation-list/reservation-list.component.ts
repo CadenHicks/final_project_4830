@@ -26,9 +26,4 @@ export class ReservationListComponent {
   ngOnDestroy(){
       this.reservationsSub.unsubscribe();
   }
-
-  // deleteReservation(id:string)
-  // {
-  //   this.ReservationcreateService.deleteRes(id);
-  // }
 }

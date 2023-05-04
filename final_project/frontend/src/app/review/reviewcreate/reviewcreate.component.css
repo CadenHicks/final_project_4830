@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+mat-card {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: #cfa72d;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#con textarea {
+  resize: none;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.custom-button {
+  background-color: #444444 !important;
+  color: #ffffff !important;
+}

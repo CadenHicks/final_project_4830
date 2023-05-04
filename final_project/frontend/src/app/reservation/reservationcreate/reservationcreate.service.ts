@@ -37,10 +37,4 @@ export class ReservationcreateService {
       this.reservationUpDate.next([...this.reservations])
     })
   }
-
-  // deleteRes(id:string)
-  // {
-  //   this.http.delete<{message:string}>("http://localhost:3000/api/reservations/"+id)
-  // }
-
 }

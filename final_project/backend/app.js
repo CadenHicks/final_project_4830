@@ -73,11 +73,5 @@ app.get('/api/reservations',(req,res,next) =>{
   });
 });
 
-// app.delete('/api/reservations/:id',(req,res,next) =>{
-//   ReservationModel.deleteOne({_id:req.params.id}).then(result =>{
-//     console.log(result)
-//     res.status(200).json({message:"Post deleted"})
-//   });
-// });
 
 module.exports = app
